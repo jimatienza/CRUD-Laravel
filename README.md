@@ -34,6 +34,7 @@ Install Git
    DocumentRoot "c:/xampp/htdocs"
    
    ServerName localhost
+   
   </VirtualHost>
 
   <VirtualHost *:80>
@@ -41,6 +42,7 @@ Install Git
    DocumentRoot "c:/xampp/htdocs/RiosLibrary/public"
     
    ServerName urlyouwant.com
+   
   </VirtualHost>
 
 9.Then go now to c:\Windows\System32\drivers\etc open host and include this
