@@ -31,11 +31,13 @@ Install Git
    
    <VirtualHost *:80>
     DocumentRoot "c:/xampp/htdocs"
-    ServerName localhost
+   
+   ServerName localhost
   </VirtualHost>
 
   <VirtualHost *:80>
     DocumentRoot "c:/xampp/htdocs/RiosLibrary/public"
+    
     ServerName urlyouwant.com
   </VirtualHost>
 
