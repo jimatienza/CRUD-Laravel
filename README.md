@@ -28,6 +28,7 @@ Install Git
 7.Create virtual host. Go to c:\xampp\apache\conf\extra open httpd-vhosts.conf
 
 8. then include this there.
+   
    <VirtualHost *:80>
     DocumentRoot "c:/xampp/htdocs"
     ServerName localhost
@@ -39,6 +40,7 @@ Install Git
   </VirtualHost>
 
 9. Then go now to c:\Windows\System32\drivers\etc open host and include this
+
       127.0.0.1       localhost
       127.0.0.1       urlyouwant.com
 
