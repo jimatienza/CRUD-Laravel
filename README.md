@@ -30,12 +30,14 @@ Install Git
 8.then include this there.
    
    <VirtualHost *:80>
+    
     DocumentRoot "c:/xampp/htdocs"
    
    ServerName localhost
   </VirtualHost>
 
   <VirtualHost *:80>
+    
     DocumentRoot "c:/xampp/htdocs/RiosLibrary/public"
     
     ServerName urlyouwant.com
