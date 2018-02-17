@@ -41,13 +41,13 @@ Install Git
 
 9.Then go now to c:\Windows\System32\drivers\etc open host and include this
 
-      127.0.0.1       localhost
+      127.0.0.1         localhost
       
-      127.0.0.1       urlyouwant.com
+      127.0.0.1         urlyouwant.com
 
 10.Save and restart xampp
 
-11. Now open a browser and go to the url you created. And its done
+11.Now open a browser and go to the url you created. And its done
 
 Author Jimwell Atienza
 
