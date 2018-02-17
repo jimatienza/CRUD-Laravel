@@ -37,13 +37,13 @@ Install Git
    
   </VirtualHost>
 
-  <//VirtualHost *:80>
+  <//VirtualHost *:80>(remove the other slash)
     
    DocumentRoot "c:/xampp/htdocs/RiosLibrary/public"
     
    ServerName urlyouwant.com
    
-  <//VirtualHost>
+  <//VirtualHost>(remove the other slash)
 
 9.Then go now to c:\Windows\System32\drivers\etc open host and include this
 
