@@ -39,7 +39,7 @@ Install Git
 
   <//VirtualHost *:80>(remove the other slash)
     
-   DocumentRoot "c:/xampp/htdocs/RiosLibrary/public"
+   DocumentRoot "c:/xampp/htdocs/yourproject/public"
     
    ServerName urlyouwant.com
    
