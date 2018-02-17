@@ -35,7 +35,7 @@ Install Git
    
    ServerName localhost
    
-  </VirtualHost>
+  <'/VirtualHost>
 
   <VirtualHost *:80>
     
@@ -43,7 +43,7 @@ Install Git
     
    ServerName urlyouwant.com
    
-  </VirtualHost>
+  <'/VirtualHost>
 
 9.Then go now to c:\Windows\System32\drivers\etc open host and include this
 
