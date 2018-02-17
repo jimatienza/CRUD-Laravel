@@ -19,7 +19,7 @@ Install Composer
 
 4.Open the project in an IDE and edit the .env file put the name of the database to the DB_DATABASE like this DB_DATABASE=YourDB then change DB_USERNAME value to root and the DB_PASSWORD value to none(as in nothing)
 
-5. Go to the CMD and access the address of the project from the htdocs. Type "php artisan migrate" 
+5.Go to the CMD and access the address of the project from the htdocs. Type "php artisan migrate" 
 
 6.Go to a browser and go to localhost/rioslibrary and your done.
 
