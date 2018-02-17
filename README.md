@@ -21,7 +21,7 @@ Install Composer
 
 5.Go to the CMD and access the address of the project from the htdocs. Type "php artisan migrate" 
 
-6.Go to a browser and go to localhost/rioslibrary and your done.
+6.Go to a browser and go to localhost and access it and your done.
 
 Author Jimwell Atienza
 
