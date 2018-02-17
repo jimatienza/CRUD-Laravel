@@ -11,6 +11,8 @@ Install a IDE(Sublime,PHPSTORM,Etc)
 
 Install Composer
 
+Install Git
+
 1.Paste the project on htdocs folder of XAMPP 
 
 2.Run XAMPP and start the apache and mysql 
@@ -19,9 +21,30 @@ Install Composer
 
 4.Open the project in an IDE and edit the .env file put the name of the database to the DB_DATABASE like this DB_DATABASE=YourDB then change DB_USERNAME value to root and the DB_PASSWORD value to none(as in nothing)
 
-5.Go to the CMD and access the address of the project from the htdocs. Type "php artisan migrate" 
+5.run git and access the address of the project from the htdocs. Type "composer install" 
 
-6.Go to a browser and go to localhost and access it and your done.
+6.Then type php artisan migrate
+
+7.Create virtual host. Go to c:\xampp\apache\conf\extra open httpd-vhosts.conf
+
+8. then include this there.
+   <VirtualHost *:80>
+    DocumentRoot "c:/xampp/htdocs"
+    ServerName localhost
+  </VirtualHost>
+
+  <VirtualHost *:80>
+    DocumentRoot "c:/xampp/htdocs/RiosLibrary/public"
+    ServerName urlyouwant.com
+  </VirtualHost>
+
+9. Then go now to c:\Windows\System32\drivers\etc open host and include this
+      127.0.0.1       localhost
+      127.0.0.1       urlyouwant.com
+
+10.Save and restart xampp
+
+11. Now open a browser and go to the url you created. And its done
 
 Author Jimwell Atienza
 
