@@ -19,7 +19,7 @@ Install Git
 
 3.Go to a browser and go to localhost/phpmyadmin and create a database 
 
-4.Open the project in an IDE and edit the .env.example file to .env and find the DB_DATABASE in the file and replace its value and to the name of the database you created then change DB_USERNAME value to root and the DB_PASSWORD value to none(as in nothing)
+4.Open the project in an IDE and edit the .env.example file to .env and find the DB_DATABASE in the file and replace its value to the name of the database you created then change DB_USERNAME value to root and the DB_PASSWORD value to none(as in nothing)
 
 5.run git and access the address of the project from the htdocs. Type "composer install" 
 
