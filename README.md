@@ -20,7 +20,7 @@ Install Git
 
 3.Go to a browser and go to localhost/phpmyadmin and create a database 
 
-4.Open the project in an IDE and open the .env file and find the DB_DATABASE in the file and replace its value to the name of the database you created then change DB_USERNAME value to root and the DB_PASSWORD value to none(as in nothing)
+4.Open the project in an IDE and rename the .env.example to .env and open the file and find the DB_DATABASE in the file and replace its value to the name of the database you created then change DB_USERNAME value to root and the DB_PASSWORD value to none(as in nothing)
 
 5.Then type php artisan migrate
 
