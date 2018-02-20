@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 	var selected = $('#library_section').data('selected') 
 	$("#library_section").val(selected);
-    // you need to specify id of combo to set right combo, if more than one combo
+    
 });
 
 $( "#search" ).keyup(function() {
@@ -24,7 +24,7 @@ $( "#search" ).keyup(function() {
 	}else{
 		$filter=$('.filter').val();
 	}
-	//alert($filter);
+	
 	$.ajax({
 		type : "get",
 		 url : '/searchdata',
@@ -91,7 +91,7 @@ $('.checkbox').click(function() {
 
 			},	
 			success:function(data){
-			//console.log(data);
+			
 			}
 		});
 
